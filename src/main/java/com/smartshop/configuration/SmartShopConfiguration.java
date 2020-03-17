@@ -72,7 +72,8 @@ public class SmartShopConfiguration extends WebSecurityConfigurerAdapter {
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver"); // this is
 																// depretected
 																// com.mysql.cj.jdbc.Driver
-		dataSource.setUrl("jdbc:mysql://localhost:3306/smartshop");
+		//dataSource.setUrl("jdbc:mysql://localhost:3306/smartshop");
+		dataSource.setUrl("jdbc:mysql://smartshop_mysql:3306/smartshop");
 		dataSource.setUsername("root");
 		dataSource.setPassword("root");
 		return dataSource;
